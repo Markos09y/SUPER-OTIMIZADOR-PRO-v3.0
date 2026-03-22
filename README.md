@@ -36,22 +36,26 @@ Tudo em sequência com apenas um clique.
 Instale o Python 3
 Execute o comando:
 python otimizador_gui.py
+
 ✔️ Método 2 – Executável (.EXE)
 Gere o executável com:
 pyinstaller --onefile --noconsole otimizador_gui.py
 O arquivo estará em:
 /dist/otimizador_gui.exe
 Execute como administrador
+
 ⚠️ Requisitos
 Windows 10 / 11 / Server
 Python 3.x instalado
 Permissões de administrador
+
 ⚠️ Avisos Importantes
 Algumas funções podem:
 Demorar alguns minutos (SFC/DISM)
 Alterar configurações do sistema
 Exigir reinicialização
 Sempre execute como Administrador
+
 🛡️ Segurança
 
 O sistema utiliza apenas comandos nativos do Windows:
@@ -68,12 +72,14 @@ SUPER_OTIMIZADOR_GUI/
 │
 ├── otimizador_gui.py
 └── README.md
+
 💡 Melhorias Futuras
 Interface moderna (CustomTkinter)
 Barra de progresso
 Logs detalhados
 Módulos completos do .bat original
 Sistema de atualização automática
+
 📄 Licença
 
 Uso livre para fins pessoais e educacionais.
