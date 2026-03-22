@@ -32,30 +32,31 @@ Otimização de disco
 Tudo em sequência com apenas um clique.
 
 ▶️ Como Executar
+<br><br>
 ✔️ Método 1 – Rodar com Python
 Instale o Python 3
 Execute o comando:
 python otimizador_gui.py
-<br>
+<br><br>
 ✔️ Método 2 – Executável (.EXE)
 Gere o executável com:
 pyinstaller --onefile --noconsole otimizador_gui.py
 O arquivo estará em:
 /dist/otimizador_gui.exe
 Execute como administrador
-<br>
+<br><br>
 ⚠️ Requisitos
 Windows 10 / 11 / Server
 Python 3.x instalado
 Permissões de administrador
-<br>
+<br><br>
 ⚠️ Avisos Importantes
 Algumas funções podem:
 Demorar alguns minutos (SFC/DISM)
 Alterar configurações do sistema
 Exigir reinicialização
 Sempre execute como Administrador
-<br>
+<br><br>
 🛡️ Segurança
 
 O sistema utiliza apenas comandos nativos do Windows:
@@ -72,14 +73,14 @@ SUPER_OTIMIZADOR_GUI/
 │
 ├── otimizador_gui.py
 └── README.md
-<br>
+<br><br>
 💡 Melhorias Futuras
 Interface moderna (CustomTkinter)
 Barra de progresso
 Logs detalhados
 Módulos completos do .bat original
 Sistema de atualização automática
-<br>
+<br><br>
 📄 Licença
 
 Uso livre para fins pessoais e educacionais.
